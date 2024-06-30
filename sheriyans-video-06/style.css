@@ -7,3 +7,49 @@ html,body{
     width: 100%;
     height: 100vh;
 }
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+#top{
+    width: 100%;
+    height: 50%;
+    background-image: url(image/one.jpg);
+    background-size: cover;
+    background-position: top;
+}
+#bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: brown;
+}
+#bottom #bone{
+    width: 25%;
+    height: 100%;
+    background-image: url(image/two.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bottom #btwo{
+    width: 25%;
+    height: 100%;
+    background-image: url(image/three.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bottom #bthree{
+    width: 25%;
+    height: 100%;
+    background-image: url(image/four.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bottom #bfour{
+    width: 25%;
+    height: 100%;
+    background-image: url(image/five.jpg);
+    background-size: cover;
+    background-position: center;
+}
