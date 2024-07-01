@@ -9,19 +9,19 @@ html,body{
 }
 #main{
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     background-color: aqua;
 }
 #top{
     width: 100%;
-    height: 50%;
+    min-height: 50vh;
     background-image: url(image/one.jpg);
     background-size: cover;
     background-position: top;
 }
 #overlay{
     width: 100%;
-    height: 100%;
+    min-height:inherit;
     position: relative;
     background-color: rgba(145, 139, 139, 0.281);
 }
@@ -40,7 +40,7 @@ html,body{
     width: 60%;
 }
 #text-right p {
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     font-family: sans-serif;
     width: 40%;
@@ -66,34 +66,65 @@ html,body{
 }
 #bottom{
     width: 100%;
-    height: 50%;
+    min-height: 50vh;
     display: flex;
 }
 #bottom #bone{
     width: 25%;
-    height: 100%;
-    background-image: url(image/two.jpg);
+    min-height: inherit;
+    background-color: #fff;
+    font-family: sans-serif;
+    padding: 30px;
+    /* background-image: url(image/two.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    /* background-color: rgba(241, 237, 237, 0.281); */
+}
+#bone p{
+    font-size: 14px;
+    margin-top: 20px;
 }
 #bottom #btwo{
     width: 25%;
-    height: 100%;
-    background-image: url(image/three.jpg);
+    min-height: inherit;
+    background-image: url(image/five.jpg);
     background-size: cover;
     background-position: center;
 }
-#bottom #bthree{
-    width: 25%;
-    height: 100%;
+#bthree{
+    width: 20%;
+    min-height: inherit;
+}
+#bthree #first{
+    width: 100%;
+    height: 50%;
+    background-color: orange;
+    font-family: sans-serif;
+    padding: 20px;
+}
+#first p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+#bthree #second{
+    width: 100%;
+    height: 50%;
     background-image: url(image/four.jpg);
     background-size: cover;
     background-position: center;
 }
 #bottom #bfour{
-    width: 25%;
-    height: 100%;
-    background-image: url(image/five.jpg);
+    width: 30%;
+    min-height: inherit;
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 30px;
+    /* background-image: url(image/five.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+}
+#bfour p{
+    margin-top: 30px;
+    line-height: 20px;
 }
