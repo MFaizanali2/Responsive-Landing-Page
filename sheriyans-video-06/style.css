@@ -51,10 +51,10 @@ html,body{
     color: #fff;
     font-family: sans-serif;
 }
-#icon{
+/* #icon{
     display: flex;
     gap: 20px;
-}
+} */
 #icon i{
     color: #fff;
     cursor: pointer;
@@ -130,6 +130,15 @@ html,body{
 }
 @media (max-width:500px){
     #overlay #text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #overlay #text #text-right{
+        flex-direction: column;
         
+    }
+    #overlay #text #text-right p{
+        width: inherit;
+        margin-top: 10px;
     }
 }
